@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#ff5722"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Laptop -->
+  <rect x="10" y="34" width="44" height="18" rx="2" stroke="url(#grad)" stroke-width="2"/>
+  <rect x="16" y="38" width="32" height="8" rx="1" fill="url(#grad)"/>
+
+  <!-- Shield -->
+  <path d="M32 10L18 16V26C18 36 25 42 32 46C39 42 46 36 46 26V16L32 10Z"
+        stroke="url(#grad)" stroke-width="2" fill="none"/>
+
+  <!-- Lock -->
+  <rect x="28" y="24" width="8" height="8" rx="1" stroke="url(#grad)" stroke-width="2"/>
+  <path d="M30 24V22C30 20.9 30.9 20 32 20C33.1 20 34 20.9 34 22V24"
+        stroke="url(#grad)" stroke-width="2"/>
+</svg>
